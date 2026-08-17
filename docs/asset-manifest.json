@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b8cd9252.chunk.css",
+    "main.js": "/static/js/main.b3c6295a.chunk.js",
+    "main.js.map": "/static/js/main.b3c6295a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eca1abd0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eca1abd0.js.map",
+    "static/js/2.da3b06c1.chunk.js": "/static/js/2.da3b06c1.chunk.js",
+    "static/js/2.da3b06c1.chunk.js.map": "/static/js/2.da3b06c1.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.46d9dd7a0763483318b9c691e33ccd3e.js": "/precache-manifest.46d9dd7a0763483318b9c691e33ccd3e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b8cd9252.chunk.css.map": "/static/css/main.b8cd9252.chunk.css.map",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/Yashar_Mahmood_Lashkar_Resume.pdf": "/static/media/Yashar_Mahmood_Lashkar_Resume.74369f01.pdf",
+    "static/media/abstron-logo.png": "/static/media/abstron-logo.56e6c0d6.png",
+    "static/media/audi_logo.png": "/static/media/audi_logo.58b0a7d5.png",
+    "static/media/cisco_logo.png": "/static/media/cisco_logo.0bdb6072.png",
+    "static/media/all.css": "/static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/gaba_logo.png": "/static/media/gaba_logo.b55f7e3a.png",
+    "static/media/hackmakers_logo.jpg": "/static/media/hackmakers_logo.d3bb6091.jpg",
+    "static/media/icodeguru_logo.png": "/static/media/icodeguru_logo.6f1b28d8.png",
+    "static/media/iiui_logo.png": "/static/media/iiui_logo.d5c792d3.png",
+    "static/media/mercedes_logo.png": "/static/media/mercedes_logo.cff5f255.png",
+    "static/media/tu_chemnitz_logo.png": "/static/media/tu_chemnitz_logo.e7d97ba4.png",
+    "static/media/ultrahack_logo.png": "/static/media/ultrahack_logo.757fd218.png",
+    "static/media/yashar_picture.png": "/static/media/yashar_picture.9b72503a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eca1abd0.js",
+    "static/js/2.da3b06c1.chunk.js",
+    "static/css/main.b8cd9252.chunk.css",
+    "static/js/main.b3c6295a.chunk.js"
+  ]
+}
