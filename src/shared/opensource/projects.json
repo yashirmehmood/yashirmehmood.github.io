@@ -1,0 +1,118 @@
+{
+  "data": [
+    {
+      "id": "cricvrx",
+      "name": "CricVRX - Virtual Cricket",
+      "createdAt": "2022-01-01T00:00:00Z",
+      "url": "https://www.cricvrx.com/",
+      "description": "An immersive VR cricket game with realistic physics, AI commentary, and multiple international stadiums. Features VR, Android TV, and 3D modes with a unique local casting system for multiplayer without internet.",
+      "isFork": false,
+      "platform": "website",
+      "languages": [
+        {
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
+        },
+        {
+          "name": "Unity",
+          "iconifyClass": "logos-unity"
+        }
+      ]
+    },
+    {
+      "id": "formula-ai-hackathon",
+      "name": "Weather Forecasting for Formula 1 Racing Game",
+      "createdAt": "2022-03-01T00:00:00Z",
+      "url": "https://github.com/yashirmehmood/Team-Front-Runner-FormulaAI-Hackathon",
+      "description": "A machine learning solution for predicting weather conditions in the F1 2021 game. Features comparative analysis of Oracle Cloud ADS AutoML and Pycaret frameworks to determine how weather impacts race outcomes.",
+      "isFork": false,
+      "platform": "github",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "flyvrx-fighter-jet",
+      "name": "FlyVRX Fighter Jet TV",
+      "createdAt": "2021-08-01T00:00:00Z",
+      "url": "https://play.google.com/store/apps/details?id=com.skippy.jet.air.strike.mission.tv",
+      "description": "A 3D fighter jet action game for Android TV with multiple modes including Dogfight, Survival, Landing, and Takeoff. Features realistic aircraft physics, cockpit view, online multiplayer, and offline play capability.",
+      "isFork": false,
+      "platform": "google-play",
+      "languages": [
+        {
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
+        },
+        {
+          "name": "Unity",
+          "iconifyClass": "logos-unity"
+        }
+      ]
+    },
+    {
+      "id": "motovrx",
+      "name": "MotoVRX",
+      "createdAt": "2020-01-01T00:00:00Z",
+      "url": "https://www.motovrx.com/",
+      "description": "A complete motorcycle racing entertainment system featuring VR mode, Smart TV compatibility, and mobile gameplay. Includes first-person view, realistic bike physics, and RemoteVRX app for smartphone controller integration.",
+      "isFork": false,
+      "platform": "website",
+      "languages": [
+        {
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
+        },
+        {
+          "name": "Unity",
+          "iconifyClass": "logos-unity"
+        }
+      ]
+    },
+    {
+      "id": "last-day-on-tower",
+      "name": "Last Day on Tower",
+      "createdAt": "2021-03-01T00:00:00Z",
+      "url": "https://www.youtube.com/watch?v=339S3BSwpdY",
+      "description": "A 1:1 scale 9D VR laser gun shooting simulator featuring a unique tower design with elevator, VR cinema, and multiplayer battle support. Includes special effects, vibration feedback, and high-resolution VR glasses.",
+      "isFork": false,
+      "platform": "youtube",
+      "languages": [
+        {
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
+        },
+        {
+          "name": "Unity",
+          "iconifyClass": "logos-unity"
+        }
+      ]
+    },
+    {
+      "id": "dinosaur-rollercoaster-vr",
+      "name": "Real Dinosaur RollerCoaster VR",
+      "createdAt": "2019-01-01T00:00:00Z",
+      "url": "https://play.google.com/store/apps/details?id=com.at.real.rollercoaster",
+      "description": "A VR roller coaster simulator that combines thrilling rides with realistic dinosaur environments. Features high-resolution graphics, dynamic sound, and Google Cardboard compatibility for an immersive prehistoric experience.",
+      "isFork": false,
+      "platform": "google-play",
+      "languages": [
+        {
+          "name": "C#",
+          "iconifyClass": "logos-c-sharp"
+        },
+        {
+          "name": "Unity",
+          "iconifyClass": "logos-unity"
+        }
+      ]
+    }
+  ]
+}

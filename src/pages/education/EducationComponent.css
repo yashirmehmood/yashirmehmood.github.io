@@ -1,0 +1,148 @@
+.education-main {
+  width: 100%;
+}
+
+.basic-education {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.heading-div {
+  display: flex;
+}
+
+.heading-div > * {
+  flex: 1;
+}
+
+.heading-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-text-div {
+  text-align: center;
+}
+
+.heading-img-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.heading-sub-text {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+/* Transcripts Section */
+.transcripts-section {
+  margin: 10px 0 40px;
+  text-align: center;
+}
+
+.transcripts-title {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  margin-bottom: 20px;
+}
+
+.transcripts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.transcript-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 24px;
+  border-radius: 10px;
+  border: 1.5px solid;
+  text-decoration: none;
+  min-width: 300px;
+  max-width: 420px;
+  flex: 1;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.transcript-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.transcript-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.transcript-info {
+  flex: 1;
+}
+
+.transcript-degree {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Google Sans Medium";
+}
+
+.transcript-uni {
+  font-size: 12px;
+  font-family: "Google Sans Regular";
+  margin-top: 3px;
+}
+
+.transcript-action {
+  font-size: 13px;
+  font-family: "Google Sans Medium";
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .transcripts-title {
+    font-size: 24px;
+  }
+
+  .transcript-card {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 1380px) {
+  .heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .heading-sub-text {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .heading-sub-text {
+    font-size: 20px;
+  }
+
+  .heading-div {
+    flex-direction: column;
+  }
+}

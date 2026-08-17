@@ -1,0 +1,178 @@
+.experience-main {
+  width: 100%;
+}
+
+.basic-experience {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.experience-heading-div {
+  display: flex;
+}
+
+.experience-heading-div > * {
+  flex: 1;
+}
+
+.experience-heading-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-heading-text-div {
+  text-align: center;
+}
+
+.experience-heading-img-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.experience-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.experience-heading-sub-text {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.experience-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
+
+/* Experience Letters Section */
+.experience-letters-section {
+  margin: 40px 5% 60px;
+  text-align: center;
+}
+
+.experience-letters-title {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  margin-bottom: 8px;
+}
+
+.experience-letters-subtitle {
+  font-size: 16px;
+  font-family: "Google Sans Regular";
+  margin-bottom: 30px;
+}
+
+.experience-letters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  text-align: left;
+}
+
+.experience-letter-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1.5px solid;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-letter-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.letter-card-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.letter-card-info {
+  flex: 1;
+}
+
+.letter-card-company {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Google Sans Medium";
+}
+
+.letter-card-role {
+  font-size: 12px;
+  font-family: "Google Sans Regular";
+  margin-top: 2px;
+}
+
+.letter-card-duration {
+  font-size: 11px;
+  font-family: "Google Sans Regular";
+  margin-top: 2px;
+  opacity: 0.7;
+}
+
+.letter-card-action {
+  font-size: 14px;
+  font-family: "Google Sans Medium";
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .experience-letters-section {
+    margin: 30px 4% 40px;
+  }
+
+  .experience-letters-title {
+    font-size: 26px;
+  }
+
+  .experience-letters-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1380px) {
+  .experience-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .experience-heading-sub-text {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .experience-heading-sub-text {
+    font-size: 20px;
+  }
+
+  .experience-heading-div {
+    flex-direction: column;
+  }
+
+  .experience-header-detail-text {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+}
