@@ -48,11 +48,11 @@ class ExperienceCard extends Component {
           <div style={{ display: "flex", flexDirection: "row" }}>
             <div
               className="arrow-left"
-              style={{ borderRight: `10px solid ${theme.body}` }}
+              style={{ borderRight: `10px solid ${theme.highlight}` }}
             ></div>
             <div
               className="experience-card"
-              style={{ background: `${theme.body}` }}
+              style={{ background: theme.highlight, color: theme.expTxtColor }}
             >
               <div
                 style={{

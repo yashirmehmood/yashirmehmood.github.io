@@ -33,6 +33,7 @@ class ExperienceAccordion extends Component {
                   Content: {
                     style: () => ({
                       backgroundColor: `${theme.body}`,
+                      color: `${theme.text}`,
                     }),
                   },
                 }}
