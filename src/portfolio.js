@@ -23,10 +23,15 @@ const greeting = {
   logo_name: "YasharMahmoodLashkar",
   nickname: "yash",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/10_Y-No9xUhpTMwWk_V90IFkrt5m-3o6j/view?usp=sharing",
+    "Software Engineer specializing in Android Automotive · VR/AR · Backend Systems. 6+ years shipping production software across Germany and Pakistan.",
+  resumeLink: "/docs/Software_Developer_CV.pdf",
   githubProfile: "https://github.com/yashirmehmood",
+  roles: [
+    "Android Automotive Developer",
+    "VR / AR Game Developer",
+    "Backend Engineer",
+    "M.Sc. @ TU Chemnitz",
+  ],
 };
 
 const socialMediaLinks = [
@@ -891,6 +896,38 @@ const transcripts = [
   },
 ];
 
+// Featured Research (home page highlight cards)
+const featuredWork = [
+  {
+    type: "Master Thesis",
+    badge: "Research · 2025",
+    title: "Visual Overlay System for Motion Sickness Mitigation",
+    company: "Mercedes-Benz AG",
+    department: "Infotainment & CarIT Security",
+    location: "Stuttgart, Germany",
+    period: "Mar 2025 – Nov 2025",
+    description:
+      "Designed and developed an Android Automotive application that uses adaptive visual overlays to reduce motion sickness in rear-seat passengers. The system processes real-time vehicle data signals and dynamically adjusts display parameters, combining low-level platform integration with research-driven UX.",
+    tags: ["Android Automotive OS", "Kotlin", "Coroutines & Flow", "Real-time Vehicle Data", "MVVM / Clean Arch", "UX Research"],
+    link: "/experience",
+    accentColor: "#38BDF8",
+  },
+  {
+    type: "Mandatory Internship",
+    badge: "Industry · 2024",
+    title: "Android Automotive Developer",
+    company: "AUDI AG",
+    department: "Digital Solutions & Connected Services",
+    location: "Ingolstadt, Germany",
+    period: "Apr 2024 – Sep 2024",
+    description:
+      "Built production-grade Android Automotive applications integrating voice-interaction features including wake-word detection and speech-to-text translation. Designed inter-process communication interfaces within Android Automotive OS and connected them to cloud backend services on Azure.",
+    tags: ["Android Automotive OS", "Kotlin / Java", "gRPC", "AIDL", "FastAPI", "Azure Cloud", "CI/CD"],
+    link: "/experience",
+    accentColor: "#F59E0B",
+  },
+];
+
 // Projects Page
 const projectsHeader = {
   title: "Projects",
@@ -934,6 +971,7 @@ export {
   degrees,
   certifications,
   experience,
+  featuredWork,
   projectsHeader,
   gameProjects,
   experienceLetters,

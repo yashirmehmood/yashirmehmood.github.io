@@ -24,10 +24,10 @@
   height: auto;
   border-radius: 50%;
   padding: 10px;
-  border: 1px solid #d9dbdf;
-  /* background-color: #6c63ff; */
-  /* background: transparent; */
-  box-shadow: 5px 5px 5px #d9dbdf;
+  border: 1px solid #334155;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  object-fit: contain;
 }
 
 .body-header {
@@ -72,13 +72,18 @@
 }
 
 .card-body {
-  /* background-color: #00FF00; */
-  border-bottom: 1px solid #d9dbdf;
-  border-left: 1px solid #d9dbdf;
-  border-right: 1px solid #d9dbdf;
-  border-radius: 7px;
+  border-bottom: 1px solid #334155;
+  border-left: 1px solid #334155;
+  border-right: 1px solid #334155;
+  border-radius: 10px;
   margin: 10px;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-body:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
 }
 
 .visit-btn {
